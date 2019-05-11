@@ -30,9 +30,11 @@ VALUES
 
 INSERT INTO book_user_comments (book_id, user_comment_id, rating)
 VALUES
-    (31, 41, NULL),
+    (32, 41, NULL),
     (32, 42, 5);
 
 INSERT INTO book_comments (book_id, user_id, rating, created_at, content)
 VALUES
-    (34, 13, 1, now(), 'I gave this book 1 star because of the outrageous number of errors. I spent an hour trying to make all the corrections.');
+    (34, 13, 1, '2018-03-08T15:02:49-07:00', 'I gave this book 1 star because of the outrageous number of errors. I spent an hour trying to make all the corrections.'),
+    (34, 13, 4, '2018-11-09T21:10:43Z', 'The book has great information but the quality of the physical book is miserable.'),
+    (33, 13, NULL, '2019-01-31T05:47:25-05:00', 'The content of the book is perhaps one of the better JavaScript books out there.');

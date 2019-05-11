@@ -11,6 +11,7 @@ CREATE DATABASE books_stock;
 \ir book/book_resources.sql;
 \ir book/book_user_comments.sql;
 \ir book/book_comments.sql;
+\ir book/book_ratings.sql;
 
 \ir author/authors.sql;
 \ir author/author_books.sql;
