@@ -21,7 +21,7 @@ BEGIN
 
     RETURN NULL;
 END;
-$$ LANGUAGE plpgsql;
+$$ LANGUAGE PLPGSQL;
 
 CREATE TRIGGER book_comments_crud INSTEAD OF INSERT ON book_comments
     FOR EACH ROW EXECUTE PROCEDURE book_comments_crud_trigger();
