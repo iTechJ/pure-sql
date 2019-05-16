@@ -1,0 +1,7 @@
+{
+  "name": "node-pg",
+  "version": "1.0.0",
+  "dependencies": {
+    "pg": "^7.11.0"
+  }
+}
